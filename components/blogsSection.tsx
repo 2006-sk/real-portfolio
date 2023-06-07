@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
-import RecentBlogPosts from "./RecentBlogPosts"
+
 
 const blogs = [
   // {
@@ -16,10 +16,12 @@ const blogs = [
   // },
   {
     // name: "PlatoIO",
-    // description: "PlatoIO is a to do list app that built using the PERN stack.",
+     description: ".",
     image: "/platoio.jpg",
     github: "https://github.com/2006-sk",
     link: "https://shresthk4.wordpress.com",
+    name : 'blogs'
+    
   },
   
   // {
